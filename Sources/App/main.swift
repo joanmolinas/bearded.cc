@@ -17,4 +17,8 @@ drop.get("/name",":name") { request in
     return "Error retrieving name"
 }
 
+drop.get { request in
+    return "Hello m8"
+}
+
 drop.run()
